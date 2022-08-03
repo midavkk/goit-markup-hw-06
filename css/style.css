@@ -741,7 +741,6 @@ img {
 
 .footer-wrap {
   position: relative;
-  /* outline: none; */
 }
 
 .btn-footer {
@@ -756,7 +755,6 @@ img {
   border: none;
   border-radius: 4px;
   display: flex;
-  /* flex-direction: row; */
 }
 
 .send-icon {
