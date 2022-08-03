@@ -783,7 +783,6 @@ img {
 
 .modal {
   width: 528px;
-  min-height: 581px;
   background-color: #ffffff;
   border-radius: 4px;
   position: absolute;
@@ -791,7 +790,15 @@ img {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 300ms;
-  /* padding: 25px; */
+  padding: 40px;
+}
+
+.modal-close-btn {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  border: none;
+  background-color: inherit;
 }
 
 .modal-close-icon {
@@ -800,9 +807,6 @@ img {
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  position: absolute;
-  right: 8px;
-  top: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -824,12 +828,7 @@ img {
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
-}
-
-.form {
-  width: 472px;
-  margin: auto;
-  padding: 12px;
+  margin-bottom: 12px;
 }
 
 .form-group {
@@ -888,7 +887,7 @@ textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   resize: none;
-  padding-left: 16px;
+  padding: 12px 16px;
 }
 
 .form-text:focus {
